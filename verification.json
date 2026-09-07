@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-09-07T11:55:18.923049+00:00",
+  "project": "reliable-api-sync",
+  "command": "python -m unittest -v",
+  "python_version": "3.12.14",
+  "os": "Darwin",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_methods": [
+    "test_401_not_retried",
+    "test_bad_ack_keeps_pending",
+    "test_bad_decimal",
+    "test_bad_revision",
+    "test_bad_schema",
+    "test_baseline_does_not_send_events",
+    "test_change_creates_one_event",
+    "test_cross_page_conflict",
+    "test_cursor_loop",
+    "test_duplicate_products_rejected",
+    "test_loopback_end_to_end",
+    "test_no_price_change_no_event",
+    "test_page_limit",
+    "test_pagination",
+    "test_replay_is_idempotent",
+    "test_retry_exhaustion",
+    "test_reused_revision_conflict",
+    "test_stale_revision",
+    "test_transaction_rolls_back",
+    "test_url_boundaries"
+  ],
+  "source_sha256": {
+    "api_sync.py": "c4bb7613c7d4c96840c78109a82a0be50ab98ca3b0c6ac3844a662e4d501fa40",
+    "demo.py": "3707b06a71115737ba2761f434cd10d81795b010d0ab6d68040207245c035e1b",
+    "test_api_sync.py": "b1f408342d23d53baa5f00a097b9c7c46a5f5b10d476f07f09158fb6e5f872fe"
+  },
+  "scope": "Local automated checks of the documented synthetic fixtures; not production acceptance or an accuracy estimate."
+}
